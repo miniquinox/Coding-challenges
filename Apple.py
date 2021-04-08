@@ -1,3 +1,8 @@
+# Given the following string, write a function to solve the following problem:
+#    - Separate letters that are the same consecutively from different letters.
+#    - The output should look like this:
+#      ['aaa', 'bbb','ccc','ddd', 'e', 'f', 'g', 'aaa']
+
 string = "aaabbbcccdddefgaaa"
 
 def separate(string):
@@ -17,5 +22,4 @@ def separate(string):
     return output 
 
 print(separate(string))
-# ['', 'aaa', 'bbb', 'ccc', 'ddd', 'e', 'f', 'g'] 
-# ['aaa', 'bbb','ccc','ddd', 'e', 'f', 'g', 'aaa'] 
+
