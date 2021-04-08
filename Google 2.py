@@ -1,3 +1,7 @@
+# Write a function that takes in a list of integers and returns the biggest multiplication between them
+#     Example 1: [3, 5, -4] returns 15
+#     Example 2: [3, -2, 5, -1] returns 30
+
 def solution(xs):
     # Your code here
     total = []
