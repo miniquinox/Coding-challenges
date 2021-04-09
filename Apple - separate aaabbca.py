@@ -22,4 +22,3 @@ def separate(string):
     return output 
 
 print(separate(string))
-
