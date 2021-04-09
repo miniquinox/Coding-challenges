@@ -1,3 +1,7 @@
+# Write a function that takes a package size, its name and the total
+# amount of space in the locker, and puts the new item in its right
+# place if possible. If there is no more space, it returns an error.
+
 def funct(dict, size, name, cap):
     if len(dict[size]['Package']) < cap:
         dict[size]['Package'].append(name)
