@@ -1,5 +1,5 @@
-# Implement a receipt function that takes as an input a cart 
-# with items and their corresponding prices, tax and promos and returns the total
+# Implement a receipt function that takes as an input a cart with items 
+# and their corresponding prices, tax and promos and returns the total
 
 def calculate(cart):
     net = 0
